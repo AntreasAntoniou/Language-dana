@@ -4,13 +4,13 @@
 ]
 'name': 'Dana'
 'patterns': [
-  
+
   {
     'match': '\\b(requires)\\b'
     'name': 'keyword.requirements.dana'
   }
   {
-    'match': '\\b(provides)\\b'
+    'match': '\\b(provides|uses)\\b'
     'name': 'keyword.provision.dana'
   }
   {
@@ -39,7 +39,7 @@
     'name': 'storage.constructs.dana'
   }
   {
-    'match': '\\b(null|super|from|clone|throw|asynch)\\b'
+    'match': '\\b(null|new|super|from|clone|throw|asynch)\\b'
     'name': 'storage.type_2.dana'
   }
   {
