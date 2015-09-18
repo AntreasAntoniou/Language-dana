@@ -4,7 +4,7 @@
 ]
 'name': 'Dana'
 'patterns': [
-
+  
   {
     'match': '\\b(requires)\\b'
     'name': 'keyword.requirements.dana'
@@ -35,7 +35,7 @@
   }
   {
     #requires|provides| original category
-    'match': '\\b(uses|component|data|extends|interface|record|user|implementation|library)\\b'
+    'match': '\\b(component|data|extends|interface|record|user|implementation|library)\\b'
     'name': 'storage.constructs.dana'
   }
   {
@@ -43,7 +43,7 @@
     'name': 'storage.type_2.dana'
   }
   {
-    'match': '\\b(new|const|copy|extern|register|restrict|static|volatile|inline)\\b'
+    'match': '\\b(const|copy|extern|register|restrict|static|volatile|inline)\\b'
     'name': 'storage.modifier.dana'
   }
   {
